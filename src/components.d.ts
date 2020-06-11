@@ -6,56 +6,38 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface XTypingText {
+        "delay": string;
+        "text": string;
+        "waitingTime": number;
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLXTypingTextElement extends Components.XTypingText, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLXTypingTextElement: {
+        prototype: HTMLXTypingTextElement;
+        new (): HTMLXTypingTextElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "x-typing-text": HTMLXTypingTextElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface XTypingText {
+        "delay"?: string;
+        "text"?: string;
+        "waitingTime"?: number;
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "x-typing-text": XTypingText;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "x-typing-text": LocalJSX.XTypingText & JSXBase.HTMLAttributes<HTMLXTypingTextElement>;
         }
     }
 }

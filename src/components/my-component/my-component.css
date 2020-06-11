@@ -1,3 +1,22 @@
 :host {
   display: block;
 }
+span.underscore {
+  animation-duration: 0.7s;
+  animation-name: underscore;
+  animation-iteration-count: infinite;
+  margin-left: 5px;
+}
+@keyframes underscore {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

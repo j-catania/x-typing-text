@@ -1,32 +1,34 @@
-import { Component, Prop, h } from '@stencil/core';
-import { format } from '../../utils/utils';
+import {Component, h, Prop, State} from '@stencil/core';
 
 @Component({
-  tag: 'my-component',
+  tag: 'x-typing-text',
   styleUrl: 'my-component.css',
-  shadow: true
+  shadow: false
 })
 export class MyComponent {
-  /**
-   * The first name
-   */
-  @Prop() first: string;
 
-  /**
-   * The middle name
-   */
-  @Prop() middle: string;
+  @Prop() text: string;
+  @Prop() waitingTime: number;
+  @Prop() delay: string;
 
-  /**
-   * The last name
-   */
-  @Prop() last: string;
+  @State() private finalText = "";
 
-  private getText(): string {
-    return format(this.first, this.middle, this.last);
+  componentWillRender() {
+    this.injectText(this.text);
+  }
+
+  private injectText(text) {
+    let count = this.finalText.length;
+    console.log(this.finalText, text[count], count, this.finalText.length)
+
+    this.finalText += text[count];
+
+    if(count < text.length - 1) {
+      setTimeout(() => this.injectText(text), this.waitingTime);
+    }
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return [<span>{this.finalText}</span>,<span class='underscore'>_</span>];
   }
 }
