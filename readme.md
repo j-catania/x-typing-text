@@ -11,10 +11,12 @@ TODO: Describe the installation process
                delay="1000">
 </x-typing-text>
 ```
-### Inputs:
-```text : the text who will be typing```
-```waiting-time: the delay between each character```
-```delay: the delay to start typing```
+### Properties
+    | Property | type | Description | Default |
+    | --- | --- | --- | --- |
+    | `text` | string | The text who will be typing |  |
+    | `waiting-time` | number | The delay between each characters  | 500 |
+    | `delay` | number | The delay to start typing | 0 |
 
 ## Contributing
 1. Fork it!
