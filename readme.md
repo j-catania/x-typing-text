@@ -1,4 +1,5 @@
 # Text Typing Webcomponent
+![Build StencilJS](https://github.com/Juu-/x-typing-text/workflows/Build%20StencilJS/badge.svg)
 
 ```html
 <x-typing-text text="plop"
