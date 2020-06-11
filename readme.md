@@ -1,14 +1,15 @@
 # Text Typing Webcomponent
 TODO: Write a project description
+
 ![Build StencilJS](https://github.com/Juu-/x-typing-text/workflows/Build%20StencilJS/badge.svg)
 ## Installation
 TODO: Describe the installation process
 ## Usage
 ```html
-<x-typing-text text="plop"
-                 waiting-time="500"
-                 delay="1000">
-  </x-typing-text>
+<x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+               waiting-time="500"
+               delay="1000">
+</x-typing-text>
 ```
 ### Inputs:
 ```text : the text who will be typing```
