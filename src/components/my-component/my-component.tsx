@@ -8,18 +8,17 @@ import {Component, h, Prop, State} from '@stencil/core';
 export class MyComponent {
 
   @Prop() text: string;
-  @Prop() waitingTime: number;
-  @Prop() delay: string;
+  @Prop() waitingTime: number = 500;
+  @Prop() delay: number = 0;
 
   @State() private finalText = "";
 
-  componentWillRender() {
-    this.injectText(this.text);
+  constructor() {
+    setTimeout(() => this.injectText(this.text), this.delay)
   }
 
   private injectText(text) {
     let count = this.finalText.length;
-    console.log(this.finalText, text[count], count, this.finalText.length)
 
     this.finalText += text[count];
 

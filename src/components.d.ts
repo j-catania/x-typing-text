@@ -7,7 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface XTypingText {
-        "delay": string;
+        "delay": number;
         "text": string;
         "waitingTime": number;
     }
@@ -25,7 +25,7 @@ declare global {
 }
 declare namespace LocalJSX {
     interface XTypingText {
-        "delay"?: string;
+        "delay"?: number;
         "text"?: string;
         "waitingTime"?: number;
     }
