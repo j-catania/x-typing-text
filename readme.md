@@ -12,11 +12,11 @@ TODO: Describe the installation process
 </x-typing-text>
 ```
 ### Properties
-    | Property | type | Description | Default |
-    | --- | --- | --- | --- |
-    | `text` | string | The text who will be typing |  |
-    | `waiting-time` | number | The delay between each characters  | 500 |
-    | `delay` | number | The delay to start typing | 0 |
+| Property | type | Description | Default |
+| --- | --- | --- | --- |
+| `text` | string | The text who will be typing |  |
+| `waiting-time` | number | The delay between each characters  | 500 |
+| `delay` | number | The delay to start typing | 0 |
 
 ## Contributing
 1. Fork it!
