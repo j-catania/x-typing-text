@@ -7,7 +7,10 @@ TODO: Write a project description
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text" title="David Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/status.svg" alt="David Dependencies Badge" /></a></span>
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text?type=dev" title="David Dev Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/dev-status.svg" alt="David Dev Dependencies Badge" /></a></span>
 ## Installation
-TODO: Describe the installation process
+```shell
+npm i ng8-apple-signin
+```
+
 ## Usage
 ```html
 <x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
