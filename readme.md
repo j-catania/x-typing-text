@@ -6,11 +6,11 @@ TODO: Write a project description
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/x-typing-text" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/x-typing-text.svg" alt="NPM downloads" /></a></span>
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text" title="David Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/status.svg" alt="David Dependencies Badge" /></a></span>
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text?type=dev" title="David Dev Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/dev-status.svg" alt="David Dev Dependencies Badge" /></a></span>
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/x-typing-text)
 
 ## Installation
 ```shell
-npm i ng8-apple-signin
+npm i x-typing-text
 ```
 
 ## Usage
