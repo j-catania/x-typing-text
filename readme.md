@@ -9,32 +9,20 @@ TODO: Write a project description
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/x-typing-text)
 
 ## Example
+<!--
 ```
 <custom-element-demo>
   <template>
     <script type="module" src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.esm.js"></script>
     <script nomodule src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.js"></script>
-    
-    <x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut">
-    </x-typing-text>
-
-  </template>
-</custom-element-demo>
-```
-<!--
-```
-<custom-element-demo>
-  <template>
-    <link rel="import" href="my-element.html">
-    <link rel="import" href="../other-element/other-element.html">
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
 ```
 -->
 ```html
-<other-element></other-element>
-<my-element></my-element>
+<x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut">
+</x-typing-text>
 ```
 
 ## Installation
