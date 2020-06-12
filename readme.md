@@ -1,5 +1,4 @@
 # Typing Text Webcomponent
-TODO: Write a project description
 
 ![StencilJS Build](https://github.com/Juu-/x-typing-text/workflows/Build%20StencilJS/badge.svg)
 <span class="badge-npmversion"><a href="https://npmjs.org/package/x-typing-text" title="View this project on NPM"><img src="https://img.shields.io/npm/v/x-typing-text.svg" alt="NPM version" /></a></span>
