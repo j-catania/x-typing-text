@@ -2,8 +2,8 @@
 TODO: Write a project description
 
 ![StencilJS Build](https://github.com/Juu-/x-typing-text/workflows/Build%20StencilJS/badge.svg)
-<span class="badge-npmversion"><a href="https://npmjs.org/package/ng8-apple-signin" title="View this project on NPM"><img src="https://img.shields.io/npm/v/x-typing-text.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/ng8-apple-signin" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/x-typing-text.svg" alt="NPM downloads" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/x-typing-text" title="View this project on NPM"><img src="https://img.shields.io/npm/v/x-typing-text.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/x-typing-text" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/x-typing-text.svg" alt="NPM downloads" /></a></span>
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text" title="David Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/status.svg" alt="David Dependencies Badge" /></a></span>
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text?type=dev" title="David Dev Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/dev-status.svg" alt="David Dev Dependencies Badge" /></a></span>
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/owner/my-element)
