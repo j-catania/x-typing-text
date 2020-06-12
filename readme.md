@@ -8,6 +8,20 @@ TODO: Write a project description
 <span class="badge-badge"><a href="https://david-dm.org/Juu-/x-typing-text?type=dev" title="David Dev Dependencies Badge"><img src="https://david-dm.org/Juu-/x-typing-text/dev-status.svg" alt="David Dev Dependencies Badge" /></a></span>
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/x-typing-text)
 
+## Example
+```
+<custom-element-demo>
+  <template>
+    <script type="module" src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.esm.js"></script>
+    <script nomodule src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.js"></script>
+    
+    <x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut">
+    </x-typing-text>
+
+  </template>
+</custom-element-demo>
+```
+
 ## Installation
 ```
 npm i x-typing-text
