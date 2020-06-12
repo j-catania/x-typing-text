@@ -1,4 +1,4 @@
-# Text Typing Webcomponent
+# Typing Text Webcomponent
 TODO: Write a project description
 
 ![StencilJS Build](https://github.com/Juu-/x-typing-text/workflows/Build%20StencilJS/badge.svg)
@@ -9,8 +9,15 @@ TODO: Write a project description
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/x-typing-text)
 
 ## Installation
-```shell
+```
 npm i x-typing-text
+```
+
+or, import in HTML file
+
+```html
+<script type="module" src="https://unpkg.com/x-typing-text@0.0.5/dist/x-typing-text/x-typing-text.esm.js"></script>
+<script nomodule src="https://unpkg.com/x-typing-text@0.0.5/dist/x-typing-text/x-typing-text.js"></script>
 ```
 
 ## Usage
