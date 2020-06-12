@@ -21,6 +21,21 @@ TODO: Write a project description
   </template>
 </custom-element-demo>
 ```
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="my-element.html">
+    <link rel="import" href="../other-element/other-element.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<other-element></other-element>
+<my-element></my-element>
+```
 
 ## Installation
 ```
