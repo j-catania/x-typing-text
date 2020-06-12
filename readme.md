@@ -16,8 +16,8 @@ npm i x-typing-text
 or, import in HTML file
 
 ```html
-<script type="module" src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.esm.js"></script>
-<script nomodule src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.js"></script>
+<script type="module" src="https://unpkg.com/x-typing-text/dist/x-typing-text/x-typing-text.esm.js"></script>
+<script nomodule src="https://unpkg.com/x-typing-text/dist/x-typing-text/x-typing-text.js"></script>
 ```
 
 ## Usage
@@ -26,8 +26,8 @@ or, import in HTML file
 ```
 <custom-element-demo>
   <template>
-    <script type="module" src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.esm.js"></script>
-    <script nomodule src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.js"></script>
+    <script type="module" src="https://unpkg.com/x-typing-text/dist/x-typing-text/x-typing-text.esm.js"></script>
+    <script nomodule src="https://unpkg.com/x-typing-text/dist/x-typing-text/x-typing-text.js"></script>
     <next-code-block></next-code-block>
   </template>
 </custom-element-demo>
@@ -35,7 +35,7 @@ or, import in HTML file
 -->
 ```html
 <x-typing-text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
-               waiting-time="500"
+               waiting-time="250"
                delay="1000">
 </x-typing-text>
 ```
@@ -52,9 +52,6 @@ or, import in HTML file
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
+
 ## License
-TODO: Write license
+M.I.T
