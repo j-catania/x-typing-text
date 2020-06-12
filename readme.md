@@ -16,8 +16,8 @@ npm i x-typing-text
 or, import in HTML file
 
 ```html
-<script type="module" src="https://unpkg.com/x-typing-text@0.0.5/dist/x-typing-text/x-typing-text.esm.js"></script>
-<script nomodule src="https://unpkg.com/x-typing-text@0.0.5/dist/x-typing-text/x-typing-text.js"></script>
+<script type="module" src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.esm.js"></script>
+<script nomodule src="https://unpkg.com/x-typing-text@0.1.1/dist/x-typing-text/x-typing-text.js"></script>
 ```
 
 ## Usage
