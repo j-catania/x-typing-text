@@ -1,6 +1,6 @@
 {
   "name": "x-typing-text",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Text Typing WebComponent",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
