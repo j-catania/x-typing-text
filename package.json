@@ -14,9 +14,9 @@
     "dist/",
     "loader/"
   ],
-  "homepage": "https://github.com/Juu-/x-typing-text#readme",
+  "homepage": "https://github.com/j-catania/x-typing-text#readme",
   "bugs": {
-    "url": "https://github.com/Juu-/x-typing-text/issues",
+    "url": "https://github.com/j-catania/x-typing-text/issues",
     "email": "contact@jcatania.io"
   },
   "scripts": {
@@ -32,6 +32,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Juu-/x-typing-text"
+    "url": "https://github.com/j-catania/x-typing-text"
   }
 }
